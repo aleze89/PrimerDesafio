@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PrimerDesafio.Models
 {
-    class Posts
+    public class Posts
     {
         public int PostsId { get; set; }
         public string Title { get; set; }

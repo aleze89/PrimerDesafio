@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PrimerDesafio.Models
 {
-    class Comments
+    public class Comments
     {
         public int CommentsId { get; set; }
         public DateTime Date { get; set; }
