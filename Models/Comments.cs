@@ -11,7 +11,7 @@ namespace PrimerDesafio.Models
         public int CommentsId { get; set; }
         public DateTime Date { get; set; }
         public string Comment { get; set; }
-        public ICollection<User> Users { get; set; }
+        public ICollection<PrimerDesafio.Models.User> Users { get; set; }
 
     }
 }

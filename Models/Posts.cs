@@ -12,7 +12,7 @@ namespace PrimerDesafio.Models
         public string Title { get; set; }
         public DateTime Date { get; set; }
         public string Content { get; set; }
-        public ICollection<User> Users { get; set; }
+        public ICollection<PrimerDesafio.Models.User> Users { get; set; }
 
     }
 }
